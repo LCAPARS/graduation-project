@@ -1,0 +1,19 @@
+<div class="container">
+    <br>
+    <h1 class="title-LCA">{{materia.name}}</h1>
+    <br>
+    <div class="row">
+        {{#each entries}}
+        <div class="col-md-3">
+            <div class="card text-center">
+                <div class="card-body">
+                    <h3 class="card-title text-uppercase">
+                        {{name}}
+                    </h3>
+                    <p class="m-2">{{description}}</p>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</div>
