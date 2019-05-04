@@ -66,7 +66,6 @@ app.use(async(req, res, next)=>{
 app.use(require('./routes/index'));
 app.use(require('./routes/authentication'));
 app.use('/subject', require('./routes/subject'));
-app.use('/links', require('./routes/links'));
 
 // Public
 app.use(express.static(path.join(__dirname, 'public')));
